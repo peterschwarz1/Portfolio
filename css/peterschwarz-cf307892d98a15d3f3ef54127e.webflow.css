@@ -1024,6 +1024,45 @@ img {
   display: none;
 }
 
+.twin-flame {
+  margin-top: 220px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.twin-flame-info {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+.twin-flame-description {
+  z-index: 3;
+  display: block;
+  width: 33vw;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: Protokoll, Arial, sans-serif;
+  color: grey;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.twin-flame-description.text {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 33vw;
+  color: grey;
+}
+
 .portal {
   margin-top: 220px;
   margin-right: 20px;
@@ -1065,11 +1104,21 @@ img {
 }
 
 .column-22 {
-  padding-right: 20px;
+  padding-right: 0px;
   padding-left: 0px;
 }
 
 .column-23 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.twin-flame-col {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.twin-flame-empty {
   padding-right: 0px;
   padding-left: 0px;
 }
@@ -1127,12 +1176,12 @@ img {
   padding-left: 0px;
 }
 
-.nordin {
+.abyss {
   position: relative;
   margin-top: 220px;
 }
 
-.nordin-info {
+.abyss-info {
   position: absolute;
   left: 0%;
   top: 0%;
@@ -1145,7 +1194,7 @@ img {
   padding-left: 0px;
 }
 
-.nordin-description {
+.abyss-description {
   z-index: 3;
   display: block;
   width: 33vw;
@@ -1160,7 +1209,7 @@ img {
   text-align: left;
 }
 
-.nordin-description.text {
+.abyss-description.text {
   position: absolute;
   left: 0%;
   top: 0%;
@@ -1559,6 +1608,23 @@ html.w-mod-js *[data-ix="fade-in"] {
     padding-right: 0px;
   }
 
+  .twin-flame {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .twin-flame-description {
+    width: 50%;
+  }
+
+  .twin-flame-description.text {
+    width: 50%;
+  }
+
+  .twin-flame-col {
+    padding-left: 20px;
+  }
+
   .torn {
     margin-right: 0px;
     margin-left: 0px;
@@ -1575,7 +1641,7 @@ html.w-mod-js *[data-ix="fade-in"] {
     padding-right: 20px;
   }
 
-  .nordin {
+  .abyss {
     margin-right: 0px;
     margin-left: 0px;
   }
@@ -1584,12 +1650,12 @@ html.w-mod-js *[data-ix="fade-in"] {
     padding-right: 0px;
   }
 
-  .nordin-description {
+  .abyss-description {
     width: 50%;
     padding-left: 20px;
   }
 
-  .nordin-description.text {
+  .abyss-description.text {
     width: 50%;
   }
 
@@ -1916,6 +1982,21 @@ html.w-mod-js *[data-ix="fade-in"] {
     position: relative;
   }
 
+  .twin-flame-description {
+    position: relative;
+    width: 50vw;
+    padding-left: 20px;
+  }
+
+  .twin-flame-description.text {
+    position: relative;
+    width: 100%;
+  }
+
+  .twin-flame-info {
+    position: relative;
+  }
+
   .torn-info {
     position: relative;
   }
@@ -1933,17 +2014,17 @@ html.w-mod-js *[data-ix="fade-in"] {
     padding-left: 20px;
   }
 
-  .nordin-info {
+  .abyss-info {
     position: relative;
   }
 
-  .nordin-description {
+  .abyss-description {
     position: relative;
     width: 100vw;
     padding-left: 20px;
   }
 
-  .nordin-description.text {
+  .abyss-description.text {
     position: relative;
     width: 100%;
   }
